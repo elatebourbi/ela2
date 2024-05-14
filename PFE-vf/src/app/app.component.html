@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div *ngIf="!authenticate; else myapp">
+        <app-login></app-login>
+      </div>
+      <ng-template #myapp>
+        <!--<h2>Hi you are successfully authenticate.</h2>-->
+        <app-aceuil></app-aceuil>
+      </ng-template>
+</body>
+</html>
+

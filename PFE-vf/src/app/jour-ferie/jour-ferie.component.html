@@ -1,0 +1,9 @@
+<table>
+  <tr>
+    <th *ngFor="let date of dates">{{ date | date:'d' }}</th>
+  </tr>
+  <tr>
+    <td *ngFor="let date of dates">{{ date | date:'EEE' }}</td>
+  </tr>
+</table>
+  

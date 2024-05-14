@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Filiale</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+
+    header {
+        background-color: '#245763';
+        color: #040404;
+        padding: 15px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 15px;
+        
+        
+       
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+        display: flex;
+        
+
+
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input[type="text"] {
+        width: 400px;
+        padding: 10px;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        border: none;
+        border-bottom: 2px solid #3477ba;
+        margin-left: 50px;
+    }
+
+    input[type="text"]:focus {
+        border-color: #007bff;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+    </style>
+    </head>
+    <body>
+        <header>
+            <h1>Type de Séance</h1>
+        </header>
+        <div class="col-md-6 mb-3">
+            <label for="">Type de Séance</label>
+            <select class="form-control">
+                <option value="selectionner le type de séance">selectionner le type de séance</option>
+                <option value="Double séances">Double séances</option>
+                <option value="Séance unique">Séance unique</option>
+                <option value="Ramadon">Ramadon</option>
+        
+        
+            </select>
+        
+        </div>
+        <nav>
+            <div class="many">
+                <button><a href="/Valider">Valider</a></button>
+            </div>
+        </nav>

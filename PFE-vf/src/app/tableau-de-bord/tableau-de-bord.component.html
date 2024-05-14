@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tableu-de-bord</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+
+    header {
+        background-color: '#245763';
+        color: #040404;
+        padding: 15px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 15px;
+        
+        
+       
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+        display: flex;
+        
+
+
+    }
+
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        border-radius: 5px;
+        margin-top: 100px;
+    }
+
+    th, td {
+        padding: 12px 15px;
+        text-align: center;
+        border-bottom: 1px solid #dee2e6;
+        border-radius: 5px;
+    }
+
+    th {
+        background-color: #175d69;
+        color: #fff;
+    }
+
+    tbody tr:hover {
+        background-color: #f8f9fa;
+    }
+    .colored-row1{
+        background: #ffff00;
+    }
+    .colored-row2{
+        background: #51b789;
+    }
+    .colored-row3{
+        background: #939090;
+    }
+   
+</style>
+</head>
+<body>
+    <header>
+        <h1>Tableau de bord</h1>
+    </header>
+<table>
+    <thead>
+        <tr>
+            <th>Code</th>
+            <th>Employé</th>
+            <th>Nbre d'absences</th>
+            <th>Congés</th>
+            <th>Nbre de retards</th>
+            <th>Nbre d'heures supp</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Lignes -->
+        <!-- Répétez cette ligne 20 fois pour créer 20 lignes -->
+        <tr>
+            <td>0050</td>
+            <td>Neji Bouzid</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td></td>
+        </tr>
+        <tr class="colored-row3">
+            <td>0052</td>
+            <td>Sofiene</td>
+            <td>0</td>
+            <td>3 jours</td>
+            <td>0</td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td>0058</td>
+            <td>Hichem Ayedi</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td></td>
+        </tr>
+        <tr class="colored-row2">
+            <td>0060</td>
+            <td>Ben Khalifa</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td></td>
+
+        </tr>
+        <tr class="colored-row1">
+            <td>0062</td>
+            <td>Mouna</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td></td>
+        </tr>
+        <tr class="colored-row1">
+            <td>0066</td>
+            <td>Riadh</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>2h</td>
+        </tr>
+        <!-- Fin des lignes -->
+    </tbody>
+</table>
+<nav>
+    <div class="many">
+        <button><a href="/actualiser">Actualiser</a></button>
+        <button><a href="/supprimer">Supprimer</a></button>
+        <button><a href="/modifier">Modifier</a></button>
+        <button><a href="/imprimer">Imprimer</a></button>
+        
+
+    </div>
+</nav>
+
+
+
+
+
+
+
+
+</body>
+</html>             

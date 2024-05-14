@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Configuration de Pointeuse</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+
+    header {
+        background-color: '#245763';
+        color: #040404;
+        padding: 15px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 15px;
+        
+        
+       
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+        display: flex;
+        
+
+
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input[type="text"] {
+        width: 400px;
+        padding: 10px;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        border: none;
+        border-bottom: 2px solid #3477ba;
+        margin-left: 50px;
+    }
+
+    input[type="text"]:focus {
+        border-color: #007bff;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        border-radius: 5px;
+        margin-top: 100px;
+    }
+
+    th, td {
+        padding: 12px 15px;
+        text-align: center;
+        border-bottom: 1px solid #dee2e6;
+        border-radius: 5px;
+    }
+
+    th {
+        background-color: #175d69;
+        color: #fff;
+    }
+
+    tbody tr:hover {
+        background-color: #f8f9fa;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Configuration de Pointeuse</h1>
+</header>
+<div class="container">
+    <div class="form-group">
+        <label for="machine-source">Machine source</label>
+        <input type="text" id="machine-source" name="machine-source">
+    </div>
+    <div class="form-group">
+        <label for="machine-destination">Machine destination</label>
+        <input type="text" id="machine-destination" name="machine-destination">
+    </div>
+    <div class="form-group">
+        <label for="nombre-utilisateurs">Nombre des utilisateurs</label>
+        <input type="text" id="nombre-utilisateurs" name="nombre-utilisateurs">
+    </div>
+    <div class="form-group">
+        <label for="nombre-administrateurs">Nombre administrateurs</label>
+        <input type="text" id="nombre-administrateurs" name="nombre-administrateurs">
+    </div>
+    <div class="form-group">
+        <label for="nombre-mots-passe">Nombre des mots de passe</label>
+        <input type="text" id="nombre-mots-passe" name="nombre-mots-passe">
+    </div>
+    <div class="form-group">
+        <label for="nombre-visages">Nombre des visages</label>
+        <input type="text" id="nombre-visages" name="nombre-visages">
+    </div>
+    <div class="form-group">
+        <label for="nombre-pointages">Nombre des pointages</label>
+        <input type="text" id="nombre-pointages" name="nombre-pointages">
+    </div>
+    <div class="form-group">
+        <label for="nombre-empreintes">Nombre des empreintes</label>
+        <input type="text" id="nombre-empreintes" name="nombre-empreintes">
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Nom et Prénom</th>
+                <th>Mot de passe</th>
+                <th>Empreinte</th>
+            
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Lignes -->
+            <!-- Répétez cette ligne 20 fois pour créer 20 lignes -->
+            <tr>
+                <td>0050</td>
+                <td>Neji Bouzid</td>
+                <td>75570050</td>
+                <td></td>
+                
+            </tr>
+            <tr>
+                <td>0052</td>
+                <td>Sofiene </td>
+                <td>75570052</td>
+                <td></td>
+                
+            </tr>
+            <tr>
+                <td>0058</td>
+                <td>Hichem Ayedi</td>
+                <td>75570058</td>
+                <td></td>
+                
+            </tr>
+            <tr>
+                <td>0060</td>
+                <td>Ben Khalifa</td>
+                <td>75570060</td>
+                <td></td>
+                
+    
+            </tr>
+            <tr>
+                <td>0062</td>
+                <td>Mouna </td>
+                <td>75570062</td>
+                <td></td>
+                
+            </tr>
+            <tr>
+                <td>0066</td>
+                <td>Riadh </td>
+                <td>75570066</td>
+                <td></td>
+                
+            </tr>
+            <!-- Fin des lignes -->
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

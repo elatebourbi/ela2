@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ajouter2</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+
+    header {
+        background-color: '#245763';
+        color: #040404;
+        padding: 15px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 15px;
+        
+        
+       
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+        display: flex;
+        
+
+
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input[type="text"] {
+        width: 400px;
+        padding: 10px;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        border: none;
+        border-bottom: 2px solid #3477ba;
+        margin-left: 50px;
+    }
+
+    input[type="text"]:focus {
+        border-color: #007bff;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        border-radius: 5px;
+        margin-top: 100px;
+    }
+
+    th, td {
+        padding: 12px 15px;
+        text-align: center;
+        border-bottom: 1px solid #dee2e6;
+        border-radius: 5px;
+    }
+
+    th {
+        background-color:#175d69;
+        color: #fff;
+    }
+
+    tbody tr:hover {
+        background-color: #f8f9fa;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Ajouter service</h1>
+    </header>
+    
+        <div class="form-row mb-3">
+            <div class="col-md-12">
+                <label for="">Code</label>
+                <input type="text" class="form-control">
+
+            </div>
+        </div>
+        <div class="form-row mb-3">
+            <div class="col-md-12">
+                <label for="">Libelle</label>
+                <input type="text" class="form-control">
+
+            </div>
+        </div>
+        
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Code langue</th>
+                            <th>libelle service</th>
+                        
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Lignes -->
+                        <!-- Répétez cette ligne 20 fois pour créer 20 lignes -->
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            
+                            
+                        </tr>
+                        <!-- Fin des lignes -->
+                    </tbody>
+                </table>
+        <div class="col-md-6 mb-3">
+            <label for="">site</label>
+            <select class="form-control">
+                <option value="">selectionner site</option>
+                <option value="designation">Designation</option>
+                <option value="demo">Demo</option>
+                <option value="site">Site</option>
+
+            </select>
+
+        </div>
+        <div class="col-md-6 mb-3">
+            <label for="">Tolérance de calcule</label>
+            <select class="form-control">
+                <option value="">selectionner Tolérance de calcule</option>
+                <option value="0">0</option>
+                <option value="30 minutes">30 minutes</option>
+                
+
+            </select>
+
+        </div>
+        <div class="col-md-6 mb-3">
+            <label for="">Marge de retard</label>
+            <select class="form-control">
+                <option value="">selectionner Marge de retard</option>
+                <option value="0">0</option>
+                <option value="15 minutes">15 minutes</option>
+                
+
+            </select>
+
+        </div>
+
+            <div class="col-md-6 mb-3">
+                <label for="">Sournis HS</label>
+                <select class="form-control">
+                    <option value="">Sournis HS</option>
+                    <option value="oui">Oui</option>
+                    <option value="Non">Non</option>
+                    
+    
+                </select>
+    
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="">Durée limité pour calculer HS</label>
+                <select class="form-control">
+                    <option value="">selectionner Durée limité pour calculer HS</option>
+                    <option value="0">0</option>
+                    <option value="60 minutes">60 minutes</option>
+                    
+    
+                </select>
+    
+            </div>
+
+            
+        
+        <div class="form-row mb-3">
+            <p>Pointage mensuel</p>
+            <div class="col-md-6 mb-3">
+                <label for="">Nombre d'heures ajoutèes / retranchèes</label>
+                <select class="form-control">
+                    <option value="">selectionner Nombre d'heures ajoutèes / retranchèes</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    
+    
+                </select>
+    
+            </div>
+        </div>
+        <div class="form-row mb-3">
+            <p>Pointage journalier</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date du</th>
+                    <th>Date au</th>
+                    <th>Jour</th>
+                    <th>Durée</th>
+                
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Lignes -->
+                <!-- Répétez cette ligne 20 fois pour créer 20 lignes -->
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    
+                    
+                </tr>
+                <!-- Fin des lignes -->
+            </tbody>
+        </table>
+        <nav>
+            <div class="many">
+                <button><a href="/valider">Valider</a></button>
+                <button><a href="/annuler">Annuler</a></button>
+                
+        
+            </div>
+        </nav>
+    
+

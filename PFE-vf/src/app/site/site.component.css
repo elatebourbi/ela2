@@ -1,0 +1,23 @@
+.many {
+    margin-top: 100px;
+    display: flex;
+gap: 20px;
+text-decoration: none;
+align-items: center;
+justify-content: center;
+width: 100%;
+}
+
+
+
+.many button{
+    color: white;
+    padding:8px 10px  ;
+    background: #260234a8 95% ;
+    border-radius: 6px;
+    
+}
+.many button a{
+    text-decoration: none;
+    color: white;
+}

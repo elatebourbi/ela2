@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Filiale</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+
+    header {
+        background-color: '#245763';
+        color: #040404;
+        padding: 15px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 15px;
+        
+        
+       
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+        display: flex;
+        
+
+
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input[type="text"] {
+        width: 400px;
+        padding: 10px;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        border: none;
+        border-bottom: 2px solid #3477ba;
+        margin-left: 50px;
+    }
+
+    input[type="text"]:focus {
+        border-color: #007bff;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+    </style>
+    </head>
+    <body>
+        <header>
+            <h1>Création planning</h1>
+        </header>
+<div class="col-md-6 mb-3">
+    <label for="">Employé</label>
+    <select class="form-control">
+        <option value="selectionner employé">selectionner employé</option>
+        <option value="Neji bouzid">Neji bouzid</option>
+        <option value="Sofiene">Sofiene</option>
+        <option value="Mouna">Mouna</option>
+        <option value="Ben Khalifa">Ben Khalifa</option>
+        <option value="Riadh">Riadh</option>
+        <option value="Hichem Ayedi">Hichem Ayedi</option>
+
+
+
+    </select>
+
+</div>
+<div class="col-md-6 mb-3">
+    <label for="">Code</label>
+    <select class="form-control">
+        <option value="selectionner code">selectionner code</option>
+        <option value="0050">0050</option>
+        <option value="0052">0052</option>
+        <option value="0058">0058</option>
+        <option value="0060">0060</option>
+        <option value="0062">0062</option>
+        <option value="0066">0066</option>
+        
+        
+
+    </select>
+
+</div>
+<div class="col-md-6 mb-3">
+    <label for="">Service</label>
+    <select class="form-control">
+        <option value="selectionner service">selectionner service</option>
+        <option value="Dev">Dev</option>
+        <option value="DR">DR</option>
+        <option value="Atelier2">Atelier2</option>
+        <option value="Atelier3">Atelier3</option>
+        
+
+    </select>
+
+</div>
+
+    <div class="col-md-6 mb-3">
+        <label for="">Site</label>
+        <select class="form-control">
+            <option value="selectionner site">selectionner site</option>
+            <option value="ADM">ADM</option>
+            <option value="PROD">PROD</option>
+            
+
+        </select>
+        <div class="col-md-6 mb-3">
+            <label for="">jours</label>
+            <select class="form-control">
+                <option value="selectionner jours">selectionner jours</option>
+                <option value="Lundi">Lundi</option>
+                <option value="Mardi">Mardi</option>
+                <option value="Mercredi">Mercredi</option>
+                <option value="Jeudi">Jeudi</option>
+                <option value="Vendredi">Vendredi</option>
+                <option value="Samedi">Samedi</option>
+                <option value="Dimanche">Dimanche</option>
+                
+                
+        
+            </select>
+
+    </div>
+    <div class="container">
+        <div class="form-group">
+            <label for="Activité">Activité</label>
+            <input type="text" id="Activité" name="Activité">
+        </div>
+    </div>
+    <nav>
+        <div class="many">
+            <button><a href="/valider">Valider</a></button>
+            <button><a href="/annuler">Annuler</a></button>
+            
+    
+        </div>
+    </nav>
